@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100Vh;
+}
+
+.container2 h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: underline;
+    
+}
+
+.container2 button{
+    font-size: 30px;
+    margin: 2px;
+    border-radius: 4px;
+    border: double black 4px;
+    cursor: pointer;
+}
+
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#random{
+    margin-left:20px;
+}
+
+#random:hover{
+    border: dotted black 3px;
+}
